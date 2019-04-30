@@ -1,0 +1,51 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto+mono|Raleway');
+
+$Black: #131B23;
+$Flash: #E9F1F7;
+$font: 'Montserrat', sans-serif !important;
+
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+ }
+ 
+ .App-content {
+  flex: 1 0 auto;
+  padding: var( — space) var( — space) 0;
+  width: 100%;
+ }
+ .App-content:after {
+  content: ‘\00a0’;
+  display: block;
+  margin-top: var( — space);
+  height: 0;
+  visibility: hidden;
+ }
+
+ h1 {
+   color: $Flash;
+ }
+
+body {
+  font-family: 'PT Sans', sans-serif;
+  background: -webkit-linear-gradient( transparentize($Black, 0.90),
+  transparentize($Black, 0.90)),
+  url('/img/bar.jpg') repeat;
+  background-position: 0 auto;
+  background-size: 0/50% auto;
+  height: 350px;
+}
+
+#NavFooter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  height: 90px;
+  background-color: #5B8B9E;
+  font-family: $font;
+  color:  #fff;
+}
