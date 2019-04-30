@@ -8,7 +8,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (
     <div className="App">
-    <h1>HOWDY WORLD</h1>
+    <div id='title'>GraphQL Easy</div>
     </div>
   );
 }

@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css?family=Montserrat|Roboto+mono|Raleway");
+@import url("https://fonts.googleapis.com/css?family=Montserrat|Roboto+mono|Raleway|Julius+Sans+One");
 .App {
   display: flex;
   flex-direction: column;
@@ -17,8 +17,12 @@
   height: 0;
   visibility: hidden; }
 
-h1 {
-  color: #E9F1F7; }
+#title {
+  display: flex;
+  justify-content: center;
+  color: #E9F1F7;
+  font-family: "Julius Sans One", sans-serif;
+  font-size: 80px; }
 
 body {
   font-family: 'PT Sans', sans-serif;
