@@ -32,11 +32,27 @@ body {
   height: 350px; }
 
 #NavFooter {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: column;
   height: 90px;
-  background-color: #5B8B9E;
+  background-color: #000;
   font-family: "Montserrat", sans-serif !important;
-  color: #fff; }
+  color: #fff;
+  opacity: 0.7; }
+
+.Cards {
+  max-width: 300px; }
+
+.card {
+  margin: 10px; }
+
+.list {
+  display: flex;
+  justify-content: center;
+  flex-flow: wrap; }
